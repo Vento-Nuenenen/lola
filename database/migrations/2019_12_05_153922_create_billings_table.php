@@ -15,10 +15,15 @@ class CreateBillingsTable extends Migration
     {
         Schema::create('billings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->double('amount');
-            $table->string('image');
-            $table->bigInteger('FK_CURRENCY');
-            $table->bigInteger('FK_TYPE');
+            $table->boolean('is_refunded');
+            $table->double('billing_amount');
+            $table->dateTime('billing_time');
+            $table->string('billing_image');
+            $table->string('reason');
+            $table->bigInteger('FK_CURRENCY')->unsigned()->index();
+            $table->bigInteger('FK_BUDGET')->unsigned()->index();
+            $table->bigInteger('FK_DETAIL_BUDGET')->unsigned()->index()->nullable();
+            $table->bigInteger('FK_USER')->unsigned()->index()->nullable();
             $table->timestamps();
         });
     }

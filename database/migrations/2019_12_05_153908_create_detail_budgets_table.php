@@ -18,7 +18,7 @@ class CreateDetailBudgetsTable extends Migration
             $table->string('budget_name');
             $table->double('total_amount');
             $table->double('total_reserve');
-            $table->bigInteger('FK_GROUP');
+            $table->bigInteger('FK_GROUP')->unsigned()->index();
             $table->timestamps();
         });
     }
