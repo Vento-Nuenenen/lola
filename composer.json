@@ -1,12 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "vento/lola",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "camp accounting software for scouts",
     "keywords": [
-        "framework",
-        "laravel"
+        "scout",
+        "pink"
     ],
-    "license": "MIT",
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
