@@ -45,6 +45,12 @@
                             E-Mail
                         </th>
                         <th>
+                            Ressort
+                        </th>
+                        <th>
+                            Rolle
+                        </th>
+                        <th>
                             Optionen
                         </th>
                         </thead>
@@ -53,10 +59,16 @@
                             <tr>
                                 <td>
                                     @if($user->scout_name)
-                                        {{ $user->scout_name }} / {{ $user->first_name }} {{ $user->last_name }}
+                                        {{ $user->firstname }} {{ $user->lastname }} / {{ $user->scoutname }}
                                     @else
-                                        {{ $user->first_name }} {{ $user->last_name }}
+                                        {{ $user->firstname }} {{ $user->lastname }}
                                     @endif
+                                </td>
+                                <td>
+                                    {{ $user->email }}
+                                </td>
+                                <td>
+                                    {{ $user }}
                                 </td>
                                 <td>
                                     {{ $user->email }}
