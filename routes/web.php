@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/home', 301);
+Route::redirect('/', '/overwatch', 301);
 
 Auth::routes();
 
-Route::group(['middleware' => ['auth']], function () {
-    Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['middleware' => ['auth']], function (){
+    Route::any('/overwatch', 'OverwatchController@index')->name('overwatch');
 
     Route::any('/users', 'UsersController@index')->name('users');
     Route::get('/users/add', 'UsersController@create')->name('add-users');
