@@ -16,7 +16,7 @@
         "elibyy/tcpdf-laravel": "^7.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/guzzle": "^6.5",
         "kouz/laravel-airbrake": "^0.6.0",
         "laravel/framework": "^7.24",
         "laravel/tinker": "^2.4",
