@@ -15,6 +15,12 @@ class CreateBillTable extends Migration
     {
         Schema::create('bill', function (Blueprint $table) {
             $table->id();
+            $table->string('bill_name');
+            $table->string('description');
+            $table->foreignId('user_id');
+            $table->foreignId('group_id');
+            $table->boolean('paid_privat');
+            $table->boolean('refunded');
             $table->timestamps();
         });
     }

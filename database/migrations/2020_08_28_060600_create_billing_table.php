@@ -15,6 +15,8 @@ class CreateBillingTable extends Migration
     {
         Schema::create('billing', function (Blueprint $table) {
             $table->id();
+            $table->string('billing_name');
+            $table->foreignId('group_id');
             $table->timestamps();
         });
     }

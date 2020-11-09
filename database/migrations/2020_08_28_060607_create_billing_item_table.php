@@ -15,6 +15,9 @@ class CreateBillingItemTable extends Migration
     {
         Schema::create('billing_item', function (Blueprint $table) {
             $table->id();
+            $table->string('billing_item_name');
+            $table->integer('billing_item_value');
+            $table->foreignId('billing_id');
             $table->timestamps();
         });
     }
