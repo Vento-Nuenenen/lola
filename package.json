@@ -21,6 +21,6 @@
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.71.0",
         "sass-loader": "^14.1.1",
-        "webpack": "^5.90.2"
+        "webpack": "^5.90.3"
     }
 }
