@@ -20,7 +20,7 @@
         "postcss": "^8.4.40",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.77.8",
-        "sass-loader": "^16.0.0",
+        "sass-loader": "^16.0.1",
         "webpack": "^5.93.0"
     }
 }
