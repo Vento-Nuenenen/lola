@@ -12,7 +12,7 @@
     "devDependencies": {
         "@popperjs/core": "^2.11.8",
         "axios": "^1.8",
-        "bootstrap": "^5.3.3",
+        "bootstrap": "^5.3.4",
         "dropzone": "^5.9.3",
         "font-awesome": "^4.7.0",
         "laravel-mix": "^6.0.49",
