@@ -19,7 +19,7 @@
         "lodash": "^4.17.21",
         "postcss": "^8.5.3",
         "resolve-url-loader": "^5.0.0",
-        "sass": "^1.87.0",
+        "sass": "^1.88.0",
         "sass-loader": "^16.0.5",
         "webpack": "^5.99.8"
     }
