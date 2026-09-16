@@ -13,7 +13,7 @@
         "@popperjs/core": "^2.11.8",
         "axios": "^1.20",
         "bootstrap": "^5.3.8",
-        "dropzone": "^6.2.0",
+        "dropzone": "^6.3.1",
         "font-awesome": "^4.7.0",
         "laravel-mix": "^6.0.49",
         "lodash": "^4.18.1",
